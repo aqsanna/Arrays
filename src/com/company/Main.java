@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        //tpel 10-20 tvery
+        System.out.println("tpel 10-20 tvery1");
         int i;
         int[] array = new int[1];
         array[0] = 10;
@@ -12,6 +14,9 @@ public class Main {
         for (i = 0; i <= 10; i++) {
             System.out.print(day[i] + " ");
         }
+        System.out.println();
+        //tpel 10-20 tvery
+        System.out.println("tpel 10-20 tvery2");
         int[] array1 = new int[11];
         int a = 10;
         for (i = 0; i < array1.length; i++) {
@@ -23,6 +28,8 @@ public class Main {
         }
 
         System.out.println();
+
+        System.out.println("tpel 0-19 tvery [4][5] matrici tesqov");
         int[][] matric = new int[4][5];
         int m = 0;
         for (i = 0; i < 4; i++) {
@@ -33,6 +40,7 @@ public class Main {
             }
         }
         System.out.println();
+
         System.out.println("hashvel arrayi tareri gumary");
         int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int sum = 0;
@@ -63,6 +71,7 @@ public class Main {
         }
         System.out.println("Sum2 = " + sum2);
 
+        //gtnel zangavcum inch vor tiv, orinak 5
         int[] num3 = {6, 8, 3, 7, 5, 6, 1, 4};
         int z = 5;
         boolean val = false;
@@ -119,9 +128,9 @@ public class Main {
         // Calculate sum of diagonal lines for matrix
 
         int[][] matrix = {{11, 2, 3, 6},
-                {5, 6, 8, 8},
-                {9, 11, 11, 12},
-                {13, 14, 15, 16}};
+                          {5, 6, 8, 8},
+                          {9, 11, 11, 12},
+                          {13, 14, 15, 16}};
         int sum3 = 0, sum4 = 0;
         for (i = 0; i < matrix.length; i++) {
             System.out.println();
@@ -140,8 +149,8 @@ public class Main {
 
         System.out.println("Sort matrix: ascending");  // sorta anum amen ira toxum bayc yndhanury chi anum
         int[][] arr = {{2, 3, 1},
-                {5, 4, 60},
-                {8, 70, 9}};
+                       {5, 4, 60},
+                       {8, 70, 9}};
 
         int j, k, temp;
         for (k = 0; k < arr.length; k++) {
